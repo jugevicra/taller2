@@ -3,7 +3,8 @@ on:
   push:
     branches:
       - 'jugevicra/taller2'
-joobs: build-container
+jobs: 
+  build-container:
     name: build container
     runs-on: ubuntu-latest
     steps:
