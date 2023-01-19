@@ -2,9 +2,8 @@ name: web  CI/CD
 on:
   push:
     branches:
-      - 'taller2'
-jobs:
-  build-container:
+      - 'jugevicra/taller2'
+joobs: build-container:
     name: build container
     runs-on: ubuntu-latest
     steps:
